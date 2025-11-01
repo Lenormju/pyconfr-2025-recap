@@ -90,3 +90,17 @@ network :
 * `cat /prox/sys/net/ipv4/tcp_keepalive_*` (default is 2 hours !)
 *  https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-KEEPALIVES
 *  `export LD_PRELOAD=/path/to/libkeepalive.so; export KEEPIDLE=60; export KEEPINTVL=60:`
+  
+## Talk court - Virtual Environments and Lockfiles—How Python Is Improving Reproducibility
+
+Ivo Bellin Salarin
+
+* replay EuroPython + article - why it took 4 years to get a lockfile spec
+* pip-tools : compile, sync
+* https://emily.space/posts/251023-uv uv is the best thing to happen to the Python ecosystem in a decade
+
+## Keynote - Le rêve de tout enfant – devenir DBA ?
+
+Karen Jex
+
+TODO
