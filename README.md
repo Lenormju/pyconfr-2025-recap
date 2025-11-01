@@ -50,6 +50,8 @@ Très théorique, mais complet et raisonablement clair.
 
 Aivars Kalvāns
 
+Goldmine of sys tricks for debugging softwares non-intrusively.
+
 https://www.brendangregg.com/linuxperf.html
 
 `/proc` :
@@ -70,3 +72,21 @@ https://www.brendangregg.com/linuxperf.html
 * read, recvfrom : waiting for data without timeout
 * wait4 : child process termination
 * futex : lock
+* https://filippo.io/linux-syscall-table/
+
+throughput :
+* IO per-second x IO size (+ parallelism)
+* blocksize for FS versus DB
+* `dd if=/dev/zero of=~blob bs=4k count=20480 oflag=direct`
+* `nmon`
+* `iostat -x`
+
+network :
+* ICMP and UDP blocked
+* `tcptraceroute` to host:port
+* `TCP_NODELAY` when ~25tps or ~40ms
+* https://brooker.co.za/blog/2024/05/09/nagle.html
+* https://lwn.net/Articles/502585/ TCP: Support configurable delayed-ack parameters
+* `cat /prox/sys/net/ipv4/tcp_keepalive_*` (default is 2 hours !)
+*  https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-KEEPALIVES
+*  `export LD_PRELOAD=/path/to/libkeepalive.so; export KEEPIDLE=60; export KEEPINTVL=60:`
