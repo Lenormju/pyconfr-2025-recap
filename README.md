@@ -101,6 +101,31 @@ Ivo Bellin Salarin
 
 ## Keynote - Le rêve de tout enfant – devenir DBA ?
 
-Karen Jex
+Pas assisté.
 
-TODO
+## Assenblée Générale
+
+Vote du bilan moral, financier, élection du nouveau comité directeur, ...
+
+## Talk court - Démarrage Python : mesurer avant d’optimiser
+
+Florentin Labelle
+
+cProfile
+
+py-spy --native --subprocess --pid $PID
+
+speedscope.app
+
+## Cloture
+
+## Replays que je souhaite voir
+
+* Jeffd - Anxiété – Peut-on monitorer sa santé mentale ?
+* Ivana Kellyer - Embracing Weird Code
+* Fabian Schindler - Refactoring at Scale: Making Analytics Type-Safe with Codemods and AI
+* Thomas Cordival - Au secours, on vient auditer mon application
+* Ewa Kadziolka - Du comportement humain au comportement du code : Quand l’ABA rencontre la programmation
+* Marjolaine Bouquet - REX de développeuse : comment j’ai changé de stack technique
+* Matthieu Sauboua-Beneluz - Pas d’algo, pas de bug, pas de bug pas de problème. Pas de problème… pas de problème
+* Dom Weldon - Who Does Python Trust, and Why?
